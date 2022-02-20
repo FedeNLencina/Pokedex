@@ -1,0 +1,15 @@
+.pokedexContainer{
+    height:100vh;
+    padding:7% 0%;
+}
+
+.pokedex{
+    background-color: rgb(241, 7, 85);
+    width:90%;
+    border-radius: 10px;
+}
+
+.pokedex-row{
+    height:100%;
+    padding:50px;
+}
