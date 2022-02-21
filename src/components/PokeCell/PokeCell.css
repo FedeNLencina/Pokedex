@@ -1,8 +1,17 @@
 .poke-cell{
-    width:40%;
+    width:30%;
     height:30%;
     margin: 10px 0px;
+    padding: 5px;
     background-color:white;
     background-repeat: no-repeat;
+
+}
+
+@media (max-width: 600px){
+    .poke-cell{
+        width:50%;
+        height:auto;
+    }
 
 }

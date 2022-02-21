@@ -4,7 +4,7 @@
     background-color:rgb(149, 1, 50);
 }
 .spriteImg {
-    width: 40%;
+    width: 30%;
     height: 40%;
     margin: 0px auto;
     background-color: #585858;
@@ -30,4 +30,18 @@
 
 .dataChar {
     font-size: 20px;
+}
+
+@media (max-width: 600px){
+    .spriteImg{
+        width:70%;
+    }
+
+    .dataName{
+        font-size:23px;
+    }
+
+    .dataChar{
+        margin-bottom: 5px;
+    }
 }
