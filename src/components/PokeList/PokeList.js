@@ -1,9 +1,10 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import './PokeList.css';
+
 import PokeCell from '../PokeCell/PokeCell.js'
 
-export default function PokeList() {
+export default function PokeList({handleOnClick}) {
   const [pokemon, setPokemon] = useState([]);
 
   useEffect(() =>{
@@ -17,11 +18,12 @@ export default function PokeList() {
     fetchData();
   }, []);
 
+ 
   return (
     <div className="d-flex flex-wrap justify-content-around aling-items-center poke-list col-lg-6 col-md-6 col-12">
         {pokemon.map((pokeClass, id) =>{
             return(
-              <PokeCell key={id} pokeClass={id}/>
+              <PokeCell key={id} pokeClass={id} handleOnClick={handleOnClick}/>
             )
         })}
     </div>
