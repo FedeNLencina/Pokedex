@@ -38,10 +38,11 @@
     }
 
     .dataName{
-        font-size:23px;
+        font-size:19px;
     }
 
     .dataChar{
+        font-size: 16px;
         margin-bottom: 5px;
     }
 }
