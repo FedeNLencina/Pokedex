@@ -34,15 +34,18 @@
 
 @media (max-width: 600px){
     .spriteImg{
-        width:70%;
+        width:60%;
     }
 
     .dataName{
-        font-size:19px;
+        font-size:15px;
     }
 
     .dataChar{
-        font-size: 16px;
+        font-size: 11px;
         margin-bottom: 5px;
+    }
+    .dataView{
+        padding:0;
     }
 }

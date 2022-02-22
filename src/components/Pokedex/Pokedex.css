@@ -24,10 +24,13 @@
 
 @media (max-width: 600px){
     .colIzq{
-        height:44%;
+        height:54%;
         margin-bottom: 15px;
     }
     .colDer{
-        height:auto;
+        height:52%;
+    }
+    .pokedexContainer{
+        padding:0px;
     }
 }
